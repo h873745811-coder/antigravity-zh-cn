@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Antigravity 原始包与备份（体积大且含厂商代码，切勿提交）
+*.asar
+*.asar.zhcn-backup

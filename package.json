@@ -1,0 +1,37 @@
+{
+  "name": "antigravity-zh-cn",
+  "version": "1.0.0",
+  "description": "Google Antigravity 桌面客户端（Electron）简体中文汉化插件",
+  "type": "module",
+  "scripts": {
+    "install-zh": "node install.mjs",
+    "uninstall-zh": "node uninstall.mjs"
+  },
+  "dependencies": {
+    "@electron/asar": "^3.2.10"
+  },
+  "keywords": [
+    "antigravity",
+    "zh-cn",
+    "chinese",
+    "localization",
+    "i18n",
+    "electron"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h873745811-coder/antigravity-zh-cn.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "install.mjs",
+    "uninstall.mjs",
+    "package/dist/zhcn.js",
+    "README.md",
+    "LICENSE",
+    "docs"
+  ]
+}
